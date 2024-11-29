@@ -1,0 +1,65 @@
+/* การตั้งค่าพื้นฐานของหน้า */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* สไตล์หัวข้อ */
+  .container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* สไตล์ฟอร์ม */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  /* ช่องกรอกข้อมูล */
+  input[type="email"],
+  input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* ปุ่มหลัก */
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* ปุ่มหลักเมื่อ hover */
+  button[type="submit"]:hover {
+    background-color: #074c9f;
+  }
+  
+  /* ปุ่มเปลี่ยนหน้า Login/Register */
+  .switch-button {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: #0984e3;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  
+  /* ข้อความแสดงข้อผิดพลาด */
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

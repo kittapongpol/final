@@ -1,0 +1,39 @@
+/* การตั้งค่าพื้นฐานของฟอร์ม */
+.post-form {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ช่องกรอกข้อความ */
+  .post-form textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    box-sizing: border-box;
+  }
+  
+  /* ปุ่มส่ง */
+  .post-form button {
+    margin-top: 10px;
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* เอฟเฟกต์เมื่อโฮเวอร์ */
+  .post-form button:hover {
+    background-color: #074c9f;
+  }
+  

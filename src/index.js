@@ -22,18 +22,19 @@
 // );
 
 // src/index.js
+// src/index.js
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';  // ใช้ react-dom/client
 import './index.css';
 import App from './App';
-import { UserProvider } from './UserContext';  // นำเข้า UserProvider
+import { UserProvider } from './contexts/UserContext';  // ใช้ path ที่ถูกต้อง
 
-ReactDOM.render(
+// ใช้ createRoot แทน render
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <UserProvider>  {/* ห่อแอปด้วย UserProvider */}
       <App />
     </UserProvider>
-  </React.StrictMode>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
-

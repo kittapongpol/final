@@ -1,0 +1,186 @@
+/* การตั้งค่าพื้นฐานของหน้า */
+.container {
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* หัวข้อ */
+.container h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+/* ปุ่ม Logout */
+.logout-button {
+  background-color: #ff7675;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d63031;
+}
+
+/* การ์ดสำหรับโพสต์ */
+.post-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+}
+
+/* เนื้อหาในโพสต์ */
+.post-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 8px 0;
+}
+
+.post-card strong {
+  color: #2d3436;
+  font-size: 15px;
+}
+
+/* ปุ่มในแต่ละโพสต์ */
+.post-card button {
+  background-color: #74b9ff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.post-card button:hover {
+  background-color: #0984e3;
+}
+
+.post-card .delete-button {
+  background-color: #fab1a0;
+}
+
+.post-card .delete-button:hover {
+  background-color: #e17055;
+}
+
+/* Likes */
+.post-card span {
+  font-size: 13px;
+  color: #6c5ce7;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* คอมเมนต์ */
+.comments-section {
+  border-top: 1px solid #eee;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.comments-section h4 {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin: 5px 0;
+  font-size: 13px;
+}
+
+.comment strong {
+  color: #0984e3;
+  margin-right: 5px;
+}
+
+.comment-input {
+  width: calc(100% - 16px);
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.comment-input:focus {
+  border-color: #74b9ff;
+  outline: none;
+}
+
+/* ปุ่มโพสต์ */
+.post-form button {
+  background-color: #55efc4;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.post-form button:hover {
+  background-color: #00cec9;
+}
+
+/* ขนาดและระยะห่างฟอร์ม */
+.post-form input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.post-form input:focus {
+  border-color: #55efc4;
+  outline: none;
+}
+/* ช่องค้นหา */
+.search-bar {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #0984e3;
+  outline: none;
+}
+
